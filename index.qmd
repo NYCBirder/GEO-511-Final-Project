@@ -9,12 +9,19 @@ date-format: long
 # Introduction
 
 \[\~ 200 words\]
+This is an introduction
 
 Clearly stated background and questions / hypotheses / problems being addressed. Sets up the analysis in an interesting and compelling way. Include figures if you like.
 
 # Materials and methods
 
 \[\~ 200 words\]
+
+Exploring Canopy-Cover Dependency of Local Bird Species
+Canopy cover is a significant factor regarding avian species composition and diversity in an area. For example, a species like the Scarlet Tanager (Piranga olivacea) is usually found only in areas with high canopy cover. Likewise, other species do best with minimal/no canopy cover, such as Eastern Meadowlark (Sturnella magna) and Bobolink (Donicholynx oryzivorus). Survival and reproduction depend on what resources are found in these habitats and how each bird is adapted to their individual niche. My study aims to look at the relationships between canopy cover and species composition in Erie County, with the relationships being able to influence conservation and management actions in the area.
+For species occurrence data, I plan to use a package called spocc. This package takes species occurrence data from several sources, including eBird, iNaturalist, and GBIF records. Below is an example map of Sharp-shinned Hawk records around the world. Note that spocc queries naturally cap out at 500 records, though the limit can be raised (but could make figure generation challenging). The second image is a map of the range of Sharp-shinned Hawks sourced by the Cornell Lab of Ornithology, and it is readily apparent that many areas they are present in show few or no records of the birds. Thus, working on a county or regional scale is better, as the data will be a better representation of where these hawks occur.
+
+
 
 Narrative: Clear narrative description of the data sources and methods. Includes data from at least two sources that were integrated / merged in R.
 
