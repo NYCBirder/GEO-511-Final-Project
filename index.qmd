@@ -4,7 +4,7 @@ author: "Your name here"
 subtitle: "Subtitle here if desired"
 ---
 
-# Introduction
+# Introduction "# Peer Review: I noticed that this code is an older verison of the one that is on your website; it looks like the commit failed because you didn't render the packages to the renv environment. Use the renv::status () function, this will see if your project is out of sync. Then finally if it is out of sync use the renv::snapshot() function to update your files to Github, which will be connected to your R environment! Hope this might resolve this issue!
 
 \[\~ 200 words\]
 This is an introduction
