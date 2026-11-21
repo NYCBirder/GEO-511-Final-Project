@@ -48,3 +48,4 @@ ggplot(data = five_counties) +
   theme_minimal() +
   labs(title = "New York Counties")
 ```
+
